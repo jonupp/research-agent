@@ -6,6 +6,7 @@ The research assistant takes a user query as input and follows an iterative retr
 The retrieved documents are subsequently merged with the collection of previously retrieved documents. Based on the accumulated results, the agent determines whether sufficient information has been gathered to answer the user's question. If the available documents are deemed insufficient, the agent formulates a new search query and repeats the retrieval and evaluation process. This iterative procedure continues until the agent determines that the retrieved information is sufficient to address the original query.
 
 The overall workflow is illustrated in the figure below:
+
 ![Image visualizing the agent graph.](./img/graph_visualization.png)
 
 ## Example
